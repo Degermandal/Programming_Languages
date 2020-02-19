@@ -1,0 +1,1 @@
+yacc -d -v interpreter.y && lex interpreter.l && gcc -Wall y.tab.c lex.yy.c -ly -ll && ./a.out
